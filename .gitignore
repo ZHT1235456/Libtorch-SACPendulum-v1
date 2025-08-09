@@ -1,0 +1,30 @@
+# build artifacts
+/build/
+/cmake-build-*/
+
+# LibTorch/第三方包（不要提交几百 MB 的依赖）
+/libtorch/
+/third_party/
+
+# logs & checkpoints
+/build/logs/
+/logs/
+/checkpoints/
+
+# editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# misc
+*.swp
+*.swo

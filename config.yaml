@@ -1,0 +1,21 @@
+# SAC
+obs_dim: 3
+act_dim: 1
+act_limit: 2.0
+gamma: 0.99
+tau: 0.005
+hidden: 256
+batch_size: 256
+lr: 0.0003
+autotune_alpha: true
+target_entropy: -1.0
+updates_per_step: 1
+
+# Training
+total_steps: 40000
+start_steps: 1000
+max_ep_len: 200
+eval_interval: 5000
+eval_episodes: 10
+seed: 0
+env_seed_base: 123
