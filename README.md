@@ -23,7 +23,7 @@
   ```bash
   sudo apt update
   sudo apt install cmake g++ libopencv-dev
-
+  ```
 
 * **YAML 解析库**（nlohmann/json 已集成）
 
